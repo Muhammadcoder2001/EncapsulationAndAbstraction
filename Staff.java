@@ -33,4 +33,12 @@ public class Staff  extends Person{
 
     }
 
+    public void turnString (){
+        System.out.println("Name is " + super.name + "\n"
+        + "Address is " + super.address + "\n"
+        + "School is " + this.school + "\n"
+        + "Pay is "+ this.pay);
+
+    }
+
 }
