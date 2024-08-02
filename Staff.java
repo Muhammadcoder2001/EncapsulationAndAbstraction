@@ -18,5 +18,19 @@ public class Staff  extends Person{
 
     }
 
+    public void getPay(){
+        System.out.println("Pay is " + this.pay);
+
+    }
+
+    public void setSchool(String school){
+        this.school = school;
+
+    }
+
+    public void setPay(double pay){
+        this.pay = pay;
+
+    }
 
 }
