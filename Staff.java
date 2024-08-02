@@ -9,6 +9,9 @@ public class Staff  extends Person{
         this.school = "56-maktab";
         this.pay = 12334.7;
         super.address = "Chust tumani";
+        super.name = "Abdulbpriy";
     }
+
+
 
 }
