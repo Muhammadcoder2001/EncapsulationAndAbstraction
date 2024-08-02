@@ -9,7 +9,7 @@ public class Student extends Person{
 
     public Student(){
         this.programm = "Python Programming language";
-        this.year = 4;
+        this.year = 2019;
         this.fee = 1258.50;
         super.address = "Olmos Shahri";
         super.name = "Abdulbosit";
@@ -58,7 +58,7 @@ public class Student extends Person{
 
     }
 
-    public void turnString (){
+    public void ToString (){
 
         System.out.println("Name is " + super.name + "\n"
         + "Address is " + super.address + "\n"
