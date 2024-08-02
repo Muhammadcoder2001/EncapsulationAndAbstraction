@@ -9,9 +9,14 @@ public class Staff  extends Person{
         this.school = "56-maktab";
         this.pay = 12334.7;
         super.address = "Chust tumani";
-        super.name = "Abdulbpriy";
+        super.name = "Abdulboriy";
+
     }
 
+    public void getSchool(){
+        System.out.println("School is " + this.school);
+
+    }
 
 
 }
